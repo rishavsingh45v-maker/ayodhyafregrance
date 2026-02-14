@@ -1,0 +1,635 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2022.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;AYODHYAFREGRANCE · royal elegance&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Fonts &amp; Icons --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&amp;family=Montserrat:wght@300;400;500;600&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>* {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #0c0c0c;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Montserrat', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>scroll-behavior: smooth;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>h1, h2, h3, h4, .serif, .gold-head {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 0.05em;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.gold {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.bg-black {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #0c0c0c;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>max-width: 1400px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 0 40px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ----- STICKY HEADER ----- */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: sticky;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>z-index: 100;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #0c0c0c;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-bottom: 1px solid rgba(212, 175, 55, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 4px 20px rgba(0,0,0,0.7);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>backdrop-filter: blur(2px);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.header-inner {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 16px 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.logo-area {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.logo-img {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 48px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: auto;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>filter: drop-shadow(0 0 5px #d4af3750);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.brand-name {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.2;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-left: 2px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding-left: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>nav ul {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>list-style: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>nav ul li a {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 400;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 1px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 0.95rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding-bottom: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-bottom: 1px solid transparent;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>nav ul li a:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-bottom: 1px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ----- HERO (single sharp image + spotlight) ----- */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 90vh;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>min-height: 700px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-image: url('https://i.ibb.co/xq24djpD/image.jpg'); /* primary crisp image */</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-size: cover;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-position: center 30%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-repeat: no-repeat;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.overlay {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>left: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: radial-gradient(circle at 50% 40%, rgba(212, 175, 55, 0.2) 0%, rgba(10,10,10,0.9) 90%);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>z-index: 10;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero-title {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 5rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-shadow: 0 0 15px #d4af37, 0 0 40px rgba(0,0,0,0.8);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.1;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero-sub {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>max-width: 800px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 10px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-shadow: 0 2px 10px black;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.divider-gold {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 150px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(90deg, transparent, #d4af37, #d4af37, #d4af37, transparent);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 30px auto;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 0 20px #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.btn-outline-gold {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 2px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 16px 42px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: 0.4s;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Montserrat', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.btn-outline-gold:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #0c0c0c;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 0 30px #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ----- FRAGRANCE GALLERY (click to enlarge) ----- */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section-title {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 3.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 90px 0 30px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card-grid {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 30px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 60px 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #111;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #2a2a2a;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: 0.4s ease;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 20px 20px 25px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 10px 25px -5px rgba(0,0,0,0.8);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transform: scale(1.02);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 0 35px rgba(212, 175, 55, 0.5);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card-img {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 260px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>object-fit: cover;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>filter: grayscale(20%) brightness(0.95);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: 0.5s;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-bottom: 1px solid #2f2f2f;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card:hover .card-img {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>filter: grayscale(0%) brightness(1.1);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card h3 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 20px 0 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 3px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card p {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #ccc;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 0 5px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ----- LIGHTBOX (single image viewer) ----- */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.lightbox {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: fixed;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 0; left: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 100%; height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: rgba(0,0,0,0.95);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>z-index: 1000;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.lightbox.active {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.lightbox-img {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>max-width: 85vw;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>max-height: 80vh;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 3px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 0 50px #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.lightbox-close {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 30px; right: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 3rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.lightbox-close:hover { transform: scale(1.2); text-shadow: 0 0 15px gold;}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.lightbox-caption {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ----- ABOUT (certificate) ----- */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.about-card {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #0a0a0a;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 60px 50px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 60px 0 80px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 0 50px rgba(212, 175, 55, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.about-content {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex: 2;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>min-width: 300px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.about-content h2 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 3rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-bottom: 2px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding-bottom: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.certificate-details {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #1a1a1a;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-left: 5px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.certificate-details p {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 8px 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #ddd;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.certificate-img {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex: 1;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>min-width: 280px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 2px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #0c0c0c;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.certificate-img img {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: auto;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>filter: brightness(0.95);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ----- CONTACT (with all links) ----- */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.contact-luxury {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #111;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 70px 30px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-top: 1px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-bottom: 1px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 80px 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.contact-luxury h2 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 3rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.social-links {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 40px 0 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.social-item {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #1c1c1c;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 60px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 15px 35px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.3rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: inline-flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.social-item i {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.social-item:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #0c0c0c;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 0 35px #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.social-item:hover i { color: #0c0c0c; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.whatsapp-glow {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #25D366;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 2px solid #25D366;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.whatsapp-glow i { color: #0c0c0c; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.whatsapp-glow:hover { background: #20b859; box-shadow: 0 0 40px #25D366; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.contact-details {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.3rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 40px 0 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.contact-details i {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0 15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.map-placeholder {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #222;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 40px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px dashed #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>max-width: 600px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 40px auto 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.3rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ----- FOOTER ----- */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>footer {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 40px 0 30px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-top: 1px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #0c0c0c;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer-content {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer-copy {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer-links a {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-left: 35px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-bottom: 1px solid transparent;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer-links a:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-bottom: 1px solid #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* responsive */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>@media (max-width: 900px) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.header-inner { flex-direction: column; gap: 15px; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>nav ul { flex-wrap: wrap; justify-content: center; gap: 25px; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.brand-name { font-size: 1.4rem; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.hero-title { font-size: 3.5rem; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.container { padding: 0 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.about-card { flex-direction: column; padding: 30px; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.social-links { gap: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.social-item { padding: 12px 20px; font-size: 1rem; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container header-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="logo-area"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img class="logo-img" src="https://i.ibb.co/srcGghd/logo.png" alt="Ayodhya fragrance royal logo" onerror="this.src='https://via.placeholder.com/48x48/d4af37/0c0c0c?text=A+';"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;span class="brand-name"&gt;AYODHYA&lt;br&gt;FREGRANCE&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;a href="#fragrance"&gt;Fragrance&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;a href="#certificate"&gt;Certificate&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- HERO SECTION (sharp single image, no blur) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="hero"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="overlay"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1 class="hero-title"&gt;AYODHYAFREGRANCE&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="hero-sub"&gt;“WHERE ROYAL FRAGRANCE MEETS TIMELESS ELEGANCE”&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="divider-gold"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#fragrance" class="btn-outline-gold"&gt;EXPLORE COLLECTION&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- FRAGRANCE GALLERY (cards without shop now) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="container" id="fragrance"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2 class="section-title"&gt;The Essence Collection&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="card-grid" id="galleryGrid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;!-- exactly 16 flowers, NO SHOP NOW button. onclick lightbox --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/1tYHc9N8/hibiscus.jpg', 'HIBISCUS')"&gt;&lt;img class="card-img" src="https://i.ibb.co/1tYHc9N8/hibiscus.jpg" alt="HIBISCUS"&gt;&lt;h3&gt;HIBISCUS&lt;/h3&gt;&lt;p&gt;Velvet petals, radiant nectar.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/zHn9MZJj/marigold.jpg', 'MARIGOLD')"&gt;&lt;img class="card-img" src="https://i.ibb.co/zHn9MZJj/marigold.jpg" alt="MARIGOLD"&gt;&lt;h3&gt;MARIGOLD&lt;/h3&gt;&lt;p&gt;Golden sun, sacred warmth.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/Jgv6jts/jasmine.jpg', 'JASMINE')"&gt;&lt;img class="card-img" src="https://i.ibb.co/Jgv6jts/jasmine.jpg" alt="JASMINE"&gt;&lt;h3&gt;JASMINE&lt;/h3&gt;&lt;p&gt;Moonlit seduction, white florals.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/5ghXmbXC/lavender.jpg', 'LAVENDER')"&gt;&lt;img class="card-img" src="https://i.ibb.co/5ghXmbXC/lavender.jpg" alt="LAVENDER"&gt;&lt;h3&gt;LAVENDER&lt;/h3&gt;&lt;p&gt;Provence breeze, calming essence.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/XfDkv14C/tuberose.jpg', 'TUBEROSE')"&gt;&lt;img class="card-img" src="https://i.ibb.co/XfDkv14C/tuberose.jpg" alt="TUBEROSE"&gt;&lt;h3&gt;TUBEROSE&lt;/h3&gt;&lt;p&gt;Exotic narcotic, creamy garden.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/WNm1134d/lily.jpg', 'LILY')"&gt;&lt;img class="card-img" src="https://i.ibb.co/WNm1134d/lily.jpg" alt="LILY"&gt;&lt;h3&gt;LILY&lt;/h3&gt;&lt;p&gt;Pure elegance, dewy majesty.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/Pv8DxSSJ/ylang-ylang.jpg', 'YLANG YLANG')"&gt;&lt;img class="card-img" src="https://i.ibb.co/Pv8DxSSJ/ylang-ylang.jpg" alt="YLANG YLANG"&gt;&lt;h3&gt;YLANG YLANG&lt;/h3&gt;&lt;p&gt;Oriental aphrodisiac, exotic.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/5Xqc7RNx/geranium.jpg', 'GERANIUM')"&gt;&lt;img class="card-img" src="https://i.ibb.co/5Xqc7RNx/geranium.jpg" alt="GERANIUM"&gt;&lt;h3&gt;GERANIUM&lt;/h3&gt;&lt;p&gt;Green rosy, uplifting charm.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/pqH8Mny/orange-blossom.jpg', 'ORANGE BLOSSOM')"&gt;&lt;img class="card-img" src="https://i.ibb.co/pqH8Mny/orange-blossom.jpg" alt="ORANGE BLOSSOM"&gt;&lt;h3&gt;ORANGE BLOSSOM&lt;/h3&gt;&lt;p&gt;Neroli bliss, Mediterranean sun.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/cKR5d3tz/magnolia.jpg', 'MAGNOLIA')"&gt;&lt;img class="card-img" src="https://i.ibb.co/cKR5d3tz/magnolia.jpg" alt="MAGNOLIA"&gt;&lt;h3&gt;MAGNOLIA&lt;/h3&gt;&lt;p&gt;Southern charm, creamy lemon.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/CKCN9Lxq/gardenia.jpg', 'GARDENIA')"&gt;&lt;img class="card-img" src="https://i.ibb.co/CKCN9Lxq/gardenia.jpg" alt="GARDENIA"&gt;&lt;h3&gt;GARDENIA&lt;/h3&gt;&lt;p&gt;White velvet, intoxicating.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/qM8T15q8/peony.jpg', 'PEONY')"&gt;&lt;img class="card-img" src="https://i.ibb.co/qM8T15q8/peony.jpg" alt="PEONY"&gt;&lt;h3&gt;PEONY&lt;/h3&gt;&lt;p&gt;Blushing bloom, lush femininity.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/HfdMNqgB/hyacinth.jpg', 'HYACINTH')"&gt;&lt;img class="card-img" src="https://i.ibb.co/HfdMNqgB/hyacinth.jpg" alt="HYACINTH"&gt;&lt;h3&gt;HYACINTH&lt;/h3&gt;&lt;p&gt;Spring burst, green nectar.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/5xjpSZ9H/lotus.jpg', 'LOTUS')"&gt;&lt;img class="card-img" src="https://i.ibb.co/5xjpSZ9H/lotus.jpg" alt="LOTUS"&gt;&lt;h3&gt;LOTUS&lt;/h3&gt;&lt;p&gt;Sacred waters, pure dawn.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/V0YJwrZJ/narcissus.jpg', 'NARCISSUS')"&gt;&lt;img class="card-img" src="https://i.ibb.co/V0YJwrZJ/narcissus.jpg" alt="NARCISSUS"&gt;&lt;h3&gt;NARCISSUS&lt;/h3&gt;&lt;p&gt;Mythic glow, honeyed spice.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card" onclick="openLightbox('https://i.ibb.co/fPBmZgZ/rose.jpg', 'ROSE')"&gt;&lt;img class="card-img" src="https://i.ibb.co/fPBmZgZ/rose.jpg" alt="ROSE"&gt;&lt;h3&gt;ROSE&lt;/h3&gt;&lt;p&gt;Timeless romance, centifolia.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- LIGHTBOX (single image viewer) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="lightbox" class="lightbox" onclick="closeLightbox(event)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="lightbox-close" onclick="closeLightbox(event)"&gt;&amp;times;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;img class="lightbox-img" id="lightbox-img" src="" alt=""&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="lightbox-caption" id="lightbox-caption"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- ABOUT + CERTIFICATE --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="container" id="about"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="about-card" id="certificate"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="about-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;ABOUT THE FOUNDER&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="certificate-details"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;&lt;span class="gold"&gt;Certified by:&lt;/span&gt; FRAGRANCE AND FLAVOUR DEVELOPMENT CENTRE (FFDC)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;A Govt. of India Autonomous Body&lt;br&gt;Ministry of Micro, Small &amp; Medium Enterprises&lt;br&gt;Kannauj – 209 726, U.P. (INDIA)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;&lt;span class="gold"&gt;Certificate No:&lt;/span&gt; FFDC/26-36/4172&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;&lt;span class="gold"&gt;Date:&lt;/span&gt; 14.11.2025 • &lt;span class="gold"&gt;Place:&lt;/span&gt; FFDC, Kannauj&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;&lt;span class="gold"&gt;Candidate:&lt;/span&gt; Raj Kishor Singh Kushwaha&lt;br&gt;S/O Mr. Sitaram Singh Kushwaha, Muzaffarpur (Bihar)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;&lt;span class="gold"&gt;Training:&lt;/span&gt; “Fragrance &amp; Flavour Creation &amp; its Application Level – I with Kit”&lt;br&gt;Sponsored by dsm firmenich • Duration: 10.11.2025 to 14.11.2025&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="certificate-img"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="https://i.ibb.co/ymW8fn9s/certificate.jpg" alt="Official FFDC certificate" onerror="this.src='https://via.placeholder.com/400x300/d4af37/0c0c0c?text=FFDC+CERTIFICATE';"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- CONTACT with all social links (WhatsApp, email, linkedin, twitter) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="container" id="contact"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="contact-luxury"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2&gt;ROYAL CONNECTION&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="social-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- whatsapp (green glow) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="https://wa.me/919431006906" target="_blank" class="social-item whatsapp-glow"&gt;&lt;i class="fab fa-whatsapp"&gt;&lt;/i&gt; WhatsApp&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- email (custom) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="mailto:rajsibgh373@gmail.com" class="social-item"&gt;&lt;i class="fas fa-envelope"&gt;&lt;/i&gt; Email&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- linkedin --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="https://linkedin.com/in/rajkishor" target="_blank" class="social-item"&gt;&lt;i class="fab fa-linkedin-in"&gt;&lt;/i&gt; LinkedIn&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- twitter/x --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="https://twitter.com/ayodhyafreg" target="_blank" class="social-item"&gt;&lt;i class="fab fa-twitter"&gt;&lt;/i&gt; Twitter&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="contact-details"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;i class="fas fa-phone-alt gold"&gt;&lt;/i&gt; +91 9431006906<span class="Apple-converted-space">  </span>&lt;i class="fas fa-map-marker-alt gold" style="margin-left: 25px;"&gt;&lt;/i&gt; Muzaffarpur, Bihar&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="map-placeholder"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fas fa-map-marked-alt gold"&gt;&lt;/i&gt;<span class="Apple-converted-space">  </span>Muzaffarpur, Bihar, India<span class="Apple-converted-space">  </span>(Google Map)</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- FOOTER --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container footer-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="footer-copy"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>AYODHYAFREGRANCE © 2026 All Rights Reserved</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="footer-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#"&gt;Privacy Policy&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#"&gt;Terms&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#"&gt;Instagram&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#"&gt;Store Locator&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- LIGHTBOX SCRIPT --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const lightbox = document.getElementById('lightbox');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const lightboxImg = document.getElementById('lightbox-img');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const lightboxCaption = document.getElementById('lightbox-caption');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function openLightbox(imgSrc, title) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>lightbox.classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>lightboxImg.src = imgSrc;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>lightboxCaption.textContent = title;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function closeLightbox(e) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (e.target === lightbox || e.target.classList.contains('lightbox-close')) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>lightbox.classList.remove('active');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// optional: close with escape key</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.addEventListener('keydown', function(e) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (e.key === 'Escape' &amp;&amp; lightbox.classList.contains('active')) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>lightbox.classList.remove('active');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
